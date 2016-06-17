@@ -1,0 +1,1 @@
+{"datasetId":1,"transactionId":"1","taxonomyId":1,"categoryId":135,"type":"manual","createdBy":"admin","createdAt":1466085557.608000000,"score":1.0,"categoryPath":["Information","Other Information Services","Other Information Services"]}]

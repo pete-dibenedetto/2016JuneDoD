@@ -1,0 +1,11 @@
+curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: BasicCreds YWRtaW46ZHQ=" -d "[{
+    \"categoryPath\": [
+        \"Information\",
+        \"Other Information Services\",
+        \"Other Information Services\"
+    ],
+    \"transactionId\": \"2\"
+}]" "http://10.100.1.156:9100/api/datasets/1/categorizations?taxonomyName=Taxonomy"
+
+File Curl to API:
+curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: BasicCreds YWRtaW46ZHQ=" -d "@/Users/Pete/Customers/June17subsettraining.json" "http://10.100.1.156:9100/api/datasets/1/categorizations?taxonomyName=Taxonomy"
